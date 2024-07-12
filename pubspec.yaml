@@ -1,0 +1,20 @@
+name: world_time
+description: A new dart project.
+version: 0.0.1
+repository: https://github.com/rahulsharmadev-community/world_time
+
+environment:
+  sdk: ^3.3.2
+
+
+dependencies:
+  http: ^0.13.3
+  regpatterns:
+    git:
+      url: https://github.com/rahulsharmadev-community/jars.git
+      ref: main
+      path: packages/jars_core
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
